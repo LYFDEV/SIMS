@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E6AEF55-8302-4F8C-A765-567FCDD9DB7D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SIMS_WFA</RootNamespace>
+    <AssemblyName>SIMS_WFA</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB_2018Std_InfoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_2018Std_InfoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Create.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Create.Designer.cs">
+      <DependentUpon>Form_Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Delete.Designer.cs">
+      <DependentUpon>Form_Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Retrieve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Retrieve.Designer.cs">
+      <DependentUpon>Form_Retrieve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_StdInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_StdInfo.Designer.cs">
+      <DependentUpon>Form_StdInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Update.Designer.cs">
+      <DependentUpon>Form_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_Create.resx">
+      <DependentUpon>Form_Create.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Delete.resx">
+      <DependentUpon>Form_Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Retrieve.resx">
+      <DependentUpon>Form_Retrieve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_StdInfo.resx">
+      <DependentUpon>Form_StdInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Update.resx">
+      <DependentUpon>Form_Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="DB_2018Std_InfoDataSet.xsc">
+      <DependentUpon>DB_2018Std_InfoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_2018Std_InfoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_2018Std_InfoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_2018Std_InfoDataSet.xss">
+      <DependentUpon>DB_2018Std_InfoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SIMSBLL\SIMSBLL.csproj">
+      <Project>{eca27fa8-00bd-40b6-b890-aa5a808657af}</Project>
+      <Name>SIMSBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SIMSModel\SIMSModel.csproj">
+      <Project>{074ecc5a-ffc1-45f1-a276-16da7c81a1b6}</Project>
+      <Name>SIMSModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon\LYF_UB_32.ico" />
+    <Content Include="icon\LYF_UB_48.ico" />
+    <Content Include="icon\LYF_UB_64.ico" />
+    <Content Include="icon\LYF_UB_96.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
