@@ -1,0 +1,11 @@
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSBLL\bin\Debug\SIMSBLL.dll
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSBLL\bin\Debug\SIMSBLL.pdb
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSBLL\bin\Debug\SIMSDAL.dll
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSBLL\bin\Debug\SIMSModel.dll
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSBLL\bin\Debug\SIMSDAL.pdb
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSBLL\bin\Debug\SIMSModel.pdb
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSBLL\obj\Debug\SIMSBLL.csprojAssemblyReference.cache
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSBLL\obj\Debug\SIMSBLL.csproj.CoreCompileInputs.cache
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSBLL\obj\Debug\SIMSBLL.csproj.CopyComplete
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSBLL\obj\Debug\SIMSBLL.dll
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSBLL\obj\Debug\SIMSBLL.pdb
