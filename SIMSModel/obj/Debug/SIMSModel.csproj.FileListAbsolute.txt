@@ -1,0 +1,6 @@
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSModel\bin\Debug\SIMSModel.dll
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSModel\bin\Debug\SIMSModel.pdb
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSModel\obj\Debug\SIMSModel.csprojAssemblyReference.cache
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSModel\obj\Debug\SIMSModel.csproj.CoreCompileInputs.cache
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSModel\obj\Debug\SIMSModel.dll
+C:\Users\UnicornBeetle\Desktop\SIMS\SIMSModel\obj\Debug\SIMSModel.pdb
