@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMSBLL", "SIMSBLL\SIMSBLL.csproj", "{ECA27FA8-00BD-40B6-B890-AA5A808657AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMSDAL", "SIMSDAL\SIMSDAL.csproj", "{A38F06EF-8439-4B09-B90A-16345B0B3DCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMSModel", "SIMSModel\SIMSModel.csproj", "{074ECC5A-FFC1-45F1-A276-16DA7C81A1B6}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SIMS_WebSite", "SIMS_WebSite\", "{AD0A01A1-06C0-48C6-9C38-056EA98F048D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{eca27fa8-00bd-40b6-b890-aa5a808657af}|SIMSBLL.dll;{A38F06EF-8439-4B09-B90A-16345B0B3DCF}|SIMSDAL.dll;{074ECC5A-FFC1-45F1-A276-16DA7C81A1B6}|SIMSModel.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_3903"
+		Debug.AspNetCompiler.PhysicalPath = "SIMS_WebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3903\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_3903"
+		Release.AspNetCompiler.PhysicalPath = "SIMS_WebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3903\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3903"
+		SlnRelativePath = "SIMS_WebSite\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMS_WFA", "SIMS_WFA\SIMS_WFA.csproj", "{8E6AEF55-8302-4F8C-A765-567FCDD9DB7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA27FA8-00BD-40B6-B890-AA5A808657AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA27FA8-00BD-40B6-B890-AA5A808657AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA27FA8-00BD-40B6-B890-AA5A808657AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA27FA8-00BD-40B6-B890-AA5A808657AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38F06EF-8439-4B09-B90A-16345B0B3DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38F06EF-8439-4B09-B90A-16345B0B3DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38F06EF-8439-4B09-B90A-16345B0B3DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38F06EF-8439-4B09-B90A-16345B0B3DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074ECC5A-FFC1-45F1-A276-16DA7C81A1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074ECC5A-FFC1-45F1-A276-16DA7C81A1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074ECC5A-FFC1-45F1-A276-16DA7C81A1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074ECC5A-FFC1-45F1-A276-16DA7C81A1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0A01A1-06C0-48C6-9C38-056EA98F048D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0A01A1-06C0-48C6-9C38-056EA98F048D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0A01A1-06C0-48C6-9C38-056EA98F048D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0A01A1-06C0-48C6-9C38-056EA98F048D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8E6AEF55-8302-4F8C-A765-567FCDD9DB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6AEF55-8302-4F8C-A765-567FCDD9DB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6AEF55-8302-4F8C-A765-567FCDD9DB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6AEF55-8302-4F8C-A765-567FCDD9DB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D16C2F92-F8F6-426F-881F-1E00E3064E34}
+	EndGlobalSection
+EndGlobal
