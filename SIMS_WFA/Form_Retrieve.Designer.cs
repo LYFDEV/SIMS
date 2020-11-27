@@ -34,9 +34,9 @@ namespace SIMS_WFA
             this.listBox_Result = new System.Windows.Forms.ListBox();
             this.lb_StdNum = new System.Windows.Forms.Label();
             this.label_prompt = new System.Windows.Forms.Label();
-            this.bt_ClearResult = new System.Windows.Forms.Button();
-            this.bt_Clear = new System.Windows.Forms.Button();
-            this.bt_Retrieve = new System.Windows.Forms.Button();
+            this.btn_ClearResult = new System.Windows.Forms.Button();
+            this.btn_Clear = new System.Windows.Forms.Button();
+            this.btn_Retrieve = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tb_StdNum
@@ -77,38 +77,38 @@ namespace SIMS_WFA
             this.label_prompt.TabIndex = 24;
             this.label_prompt.Text = "通过学号查询学生信息";
             // 
-            // bt_ClearResult
+            // btn_ClearResult
             // 
-            this.bt_ClearResult.Font = new System.Drawing.Font("微软雅黑", 10.8F);
-            this.bt_ClearResult.Location = new System.Drawing.Point(205, 487);
-            this.bt_ClearResult.Name = "bt_ClearResult";
-            this.bt_ClearResult.Size = new System.Drawing.Size(280, 41);
-            this.bt_ClearResult.TabIndex = 23;
-            this.bt_ClearResult.Text = "清除查询结果";
-            this.bt_ClearResult.UseVisualStyleBackColor = true;
-            this.bt_ClearResult.Click += new System.EventHandler(this.bt_ClearResult_Click);
+            this.btn_ClearResult.Font = new System.Drawing.Font("微软雅黑", 10.8F);
+            this.btn_ClearResult.Location = new System.Drawing.Point(205, 487);
+            this.btn_ClearResult.Name = "btn_ClearResult";
+            this.btn_ClearResult.Size = new System.Drawing.Size(280, 41);
+            this.btn_ClearResult.TabIndex = 23;
+            this.btn_ClearResult.Text = "清除查询结果";
+            this.btn_ClearResult.UseVisualStyleBackColor = true;
+            this.btn_ClearResult.Click += new System.EventHandler(this.btn_ClearResult_Click);
             // 
-            // bt_Clear
+            // btn_Clear
             // 
-            this.bt_Clear.Font = new System.Drawing.Font("微软雅黑", 10.8F);
-            this.bt_Clear.Location = new System.Drawing.Point(578, 61);
-            this.bt_Clear.Name = "bt_Clear";
-            this.bt_Clear.Size = new System.Drawing.Size(110, 41);
-            this.bt_Clear.TabIndex = 22;
-            this.bt_Clear.Text = "清除内容";
-            this.bt_Clear.UseVisualStyleBackColor = true;
-            this.bt_Clear.Click += new System.EventHandler(this.bt_Clear_Click);
+            this.btn_Clear.Font = new System.Drawing.Font("微软雅黑", 10.8F);
+            this.btn_Clear.Location = new System.Drawing.Point(578, 61);
+            this.btn_Clear.Name = "btn_Clear";
+            this.btn_Clear.Size = new System.Drawing.Size(110, 41);
+            this.btn_Clear.TabIndex = 22;
+            this.btn_Clear.Text = "清除内容";
+            this.btn_Clear.UseVisualStyleBackColor = true;
+            this.btn_Clear.Click += new System.EventHandler(this.btn_Clear_Click);
             // 
-            // bt_Retrieve
+            // btn_Retrieve
             // 
-            this.bt_Retrieve.Font = new System.Drawing.Font("微软雅黑", 10.8F);
-            this.bt_Retrieve.Location = new System.Drawing.Point(438, 61);
-            this.bt_Retrieve.Name = "bt_Retrieve";
-            this.bt_Retrieve.Size = new System.Drawing.Size(110, 41);
-            this.bt_Retrieve.TabIndex = 21;
-            this.bt_Retrieve.Text = "查询信息";
-            this.bt_Retrieve.UseVisualStyleBackColor = true;
-            this.bt_Retrieve.Click += new System.EventHandler(this.bt_Retrieve_Click);
+            this.btn_Retrieve.Font = new System.Drawing.Font("微软雅黑", 10.8F);
+            this.btn_Retrieve.Location = new System.Drawing.Point(438, 61);
+            this.btn_Retrieve.Name = "btn_Retrieve";
+            this.btn_Retrieve.Size = new System.Drawing.Size(110, 41);
+            this.btn_Retrieve.TabIndex = 21;
+            this.btn_Retrieve.Text = "查询信息";
+            this.btn_Retrieve.UseVisualStyleBackColor = true;
+            this.btn_Retrieve.Click += new System.EventHandler(this.btn_Retrieve_Click);
             // 
             // Form_Retrieve
             // 
@@ -119,9 +119,9 @@ namespace SIMS_WFA
             this.Controls.Add(this.listBox_Result);
             this.Controls.Add(this.lb_StdNum);
             this.Controls.Add(this.label_prompt);
-            this.Controls.Add(this.bt_ClearResult);
-            this.Controls.Add(this.bt_Clear);
-            this.Controls.Add(this.bt_Retrieve);
+            this.Controls.Add(this.btn_ClearResult);
+            this.Controls.Add(this.btn_Clear);
+            this.Controls.Add(this.btn_Retrieve);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form_Retrieve";
             this.Text = "查询学生信息";
@@ -136,8 +136,8 @@ namespace SIMS_WFA
         private System.Windows.Forms.ListBox listBox_Result;
         private System.Windows.Forms.Label lb_StdNum;
         private System.Windows.Forms.Label label_prompt;
-        private System.Windows.Forms.Button bt_ClearResult;
-        private System.Windows.Forms.Button bt_Clear;
-        private System.Windows.Forms.Button bt_Retrieve;
+        private System.Windows.Forms.Button btn_ClearResult;
+        private System.Windows.Forms.Button btn_Clear;
+        private System.Windows.Forms.Button btn_Retrieve;
     }
 }

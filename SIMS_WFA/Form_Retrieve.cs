@@ -19,7 +19,7 @@ namespace SIMS_WFA
             InitializeComponent();
         }
 
-        private void bt_Retrieve_Click(object sender, EventArgs e)
+        private void btn_Retrieve_Click(object sender, EventArgs e)
         {
             if (tb_StdNum.Text != "")
             {
@@ -35,12 +35,12 @@ namespace SIMS_WFA
             }
         }
 
-        private void bt_Clear_Click(object sender, EventArgs e)
+        private void btn_Clear_Click(object sender, EventArgs e)
         {
             tb_StdNum.Text = "";
         }
 
-        private void bt_ClearResult_Click(object sender, EventArgs e)
+        private void btn_ClearResult_Click(object sender, EventArgs e)
         {
             listBox_Result.Items.Clear();
         }
