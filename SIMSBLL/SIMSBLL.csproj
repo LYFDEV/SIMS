@@ -41,10 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminInfoBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StdInfoBLL.cs" />
-    <Compile Include="SuperAdminBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SIMSDAL\SIMSDAL.csproj">
