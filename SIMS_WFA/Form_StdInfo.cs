@@ -19,8 +19,8 @@ namespace SIMS_WFA
 
         private void Form_StdInfo_Load(object sender, EventArgs e)
         {
-            // TODO: 这行代码将数据加载到表“dB_2018Std_InfoDataSet.T_PerInfo”中。您可以根据需要移动或删除它。
-            this.t_PerInfoTableAdapter.Fill(this.dB_2018Std_InfoDataSet.T_PerInfo);
+            // TODO: 这行代码将数据加载到表“stdInfoDataSet.T_StdInfo”中。您可以根据需要移动或删除它。
+            this.t_StdInfoTableAdapter.Fill(this.stdInfoDataSet.T_StdInfo);
         }
 
         private void Menu_Create_Click(object sender, EventArgs e)
@@ -49,7 +49,7 @@ namespace SIMS_WFA
 
         private void Menu_Refresh_Click(object sender, EventArgs e)
         {
-            this.t_PerInfoTableAdapter.Fill(this.dB_2018Std_InfoDataSet.T_PerInfo);
+            this.t_StdInfoTableAdapter.Fill(this.stdInfoDataSet.T_StdInfo);
         }
     }
 }

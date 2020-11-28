@@ -33,5 +33,16 @@ namespace SIMS_WFA.Properties {
                 return ((string)(this["DB_2018Std_InfoConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=localhost\\SQLEXPRESS;Initial Catalog=StdInfo;Integrated Security=True" +
+            "")]
+        public string StdInfoConnectionString {
+            get {
+                return ((string)(this["StdInfoConnectionString"]));
+            }
+        }
     }
 }

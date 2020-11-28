@@ -46,11 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DB_2018Std_InfoDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DB_2018Std_InfoDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Form_Create.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +90,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StdInfoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StdInfoDataSet.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form_Create.resx">
       <DependentUpon>Form_Create.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,17 +125,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="DB_2018Std_InfoDataSet.xsc">
-      <DependentUpon>DB_2018Std_InfoDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="DB_2018Std_InfoDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DB_2018Std_InfoDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DB_2018Std_InfoDataSet.xss">
-      <DependentUpon>DB_2018Std_InfoDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -145,6 +134,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="StdInfoDataSet.xsc">
+      <DependentUpon>StdInfoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StdInfoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StdInfoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StdInfoDataSet.xss">
+      <DependentUpon>StdInfoDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

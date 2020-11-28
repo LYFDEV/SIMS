@@ -38,21 +38,19 @@ namespace SIMS_WFA
             this.Menu_Delete = new System.Windows.Forms.ToolStripMenuItem();
             this.Menu_Refresh = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.stdInfoDataSet = new SIMS_WFA.StdInfoDataSet();
+            this.tStdInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.t_StdInfoTableAdapter = new SIMS_WFA.StdInfoDataSetTableAdapters.T_StdInfoTableAdapter();
             this.stdNumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sexDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.eMailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phoneNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tPerInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dB2018StdInfoDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dB_2018Std_InfoDataSet = new SIMS_WFA.DB_2018Std_InfoDataSet();
-            this.t_PerInfoTableAdapter = new SIMS_WFA.DB_2018Std_InfoDataSetTableAdapters.T_PerInfoTableAdapter();
             this.menuStrip_CRUD.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tPerInfoBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dB2018StdInfoDataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dB_2018Std_InfoDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stdInfoDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tStdInfoBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip_CRUD
@@ -109,9 +107,6 @@ namespace SIMS_WFA
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -121,13 +116,28 @@ namespace SIMS_WFA
             this.nationDataGridViewTextBoxColumn,
             this.eMailDataGridViewTextBoxColumn,
             this.phoneNumberDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.tPerInfoBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 38);
+            this.dataGridView1.DataSource = this.tStdInfoBindingSource;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 35);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 27;
-            this.dataGridView1.Size = new System.Drawing.Size(1095, 497);
+            this.dataGridView1.Size = new System.Drawing.Size(1119, 512);
             this.dataGridView1.TabIndex = 4;
+            // 
+            // stdInfoDataSet
+            // 
+            this.stdInfoDataSet.DataSetName = "StdInfoDataSet";
+            this.stdInfoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tStdInfoBindingSource
+            // 
+            this.tStdInfoBindingSource.DataMember = "T_StdInfo";
+            this.tStdInfoBindingSource.DataSource = this.stdInfoDataSet;
+            // 
+            // t_StdInfoTableAdapter
+            // 
+            this.t_StdInfoTableAdapter.ClearBeforeFill = true;
             // 
             // stdNumDataGridViewTextBoxColumn
             // 
@@ -177,25 +187,6 @@ namespace SIMS_WFA
             this.phoneNumberDataGridViewTextBoxColumn.Name = "phoneNumberDataGridViewTextBoxColumn";
             this.phoneNumberDataGridViewTextBoxColumn.Width = 125;
             // 
-            // tPerInfoBindingSource
-            // 
-            this.tPerInfoBindingSource.DataMember = "T_PerInfo";
-            this.tPerInfoBindingSource.DataSource = this.dB2018StdInfoDataSetBindingSource;
-            // 
-            // dB2018StdInfoDataSetBindingSource
-            // 
-            this.dB2018StdInfoDataSetBindingSource.DataSource = this.dB_2018Std_InfoDataSet;
-            this.dB2018StdInfoDataSetBindingSource.Position = 0;
-            // 
-            // dB_2018Std_InfoDataSet
-            // 
-            this.dB_2018Std_InfoDataSet.DataSetName = "DB_2018Std_InfoDataSet";
-            this.dB_2018Std_InfoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // t_PerInfoTableAdapter
-            // 
-            this.t_PerInfoTableAdapter.ClearBeforeFill = true;
-            // 
             // Form_StdInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -210,9 +201,8 @@ namespace SIMS_WFA
             this.menuStrip_CRUD.ResumeLayout(false);
             this.menuStrip_CRUD.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tPerInfoBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dB2018StdInfoDataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dB_2018Std_InfoDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stdInfoDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tStdInfoBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,17 +214,16 @@ namespace SIMS_WFA
         private System.Windows.Forms.ToolStripMenuItem Menu_Retrieve;
         private System.Windows.Forms.ToolStripMenuItem Menu_Update;
         private System.Windows.Forms.ToolStripMenuItem Menu_Delete;
+        private System.Windows.Forms.ToolStripMenuItem Menu_Refresh;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.BindingSource dB2018StdInfoDataSetBindingSource;
-        private DB_2018Std_InfoDataSet dB_2018Std_InfoDataSet;
-        private System.Windows.Forms.BindingSource tPerInfoBindingSource;
-        private DB_2018Std_InfoDataSetTableAdapters.T_PerInfoTableAdapter t_PerInfoTableAdapter;
+        private StdInfoDataSet stdInfoDataSet;
+        private System.Windows.Forms.BindingSource tStdInfoBindingSource;
+        private StdInfoDataSetTableAdapters.T_StdInfoTableAdapter t_StdInfoTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn stdNumDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn sexDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nationDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn eMailDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn phoneNumberDataGridViewTextBoxColumn;
-        private System.Windows.Forms.ToolStripMenuItem Menu_Refresh;
     }
 }
