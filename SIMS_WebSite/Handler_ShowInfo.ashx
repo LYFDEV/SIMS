@@ -12,7 +12,7 @@ public class Handler_ShowInfo : IHttpHandler {
 
     public void ProcessRequest (HttpContext context) {
         context.Response.ContentType = "text/html";
-        string path = context.Request.MapPath("Index.html");
+        string path = context.Request.MapPath("StdInfo.html");
         string html = File.ReadAllText(path);
         StdInfoBLL sib = new StdInfoBLL();
         List<StdInfoModel> lSim = sib.GetAllInformation();
