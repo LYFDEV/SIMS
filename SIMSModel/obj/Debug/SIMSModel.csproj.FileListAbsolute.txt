@@ -4,3 +4,9 @@ C:\Users\UnicornBeetle\Desktop\SIMS\SIMSModel\obj\Debug\SIMSModel.csprojAssembly
 C:\Users\UnicornBeetle\Desktop\SIMS\SIMSModel\obj\Debug\SIMSModel.csproj.CoreCompileInputs.cache
 C:\Users\UnicornBeetle\Desktop\SIMS\SIMSModel\obj\Debug\SIMSModel.dll
 C:\Users\UnicornBeetle\Desktop\SIMS\SIMSModel\obj\Debug\SIMSModel.pdb
+D:\Programming Exercises Files\Programs\SIMS\SIMSModel\bin\Debug\SIMSModel.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSModel\bin\Debug\SIMSModel.pdb
+D:\Programming Exercises Files\Programs\SIMS\SIMSModel\obj\Debug\SIMSModel.csprojAssemblyReference.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMSModel\obj\Debug\SIMSModel.csproj.CoreCompileInputs.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMSModel\obj\Debug\SIMSModel.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSModel\obj\Debug\SIMSModel.pdb
