@@ -7,3 +7,12 @@ C:\Users\UnicornBeetle\Desktop\SIMS\SIMSDAL\obj\Debug\SIMSDAL.csproj.CoreCompile
 C:\Users\UnicornBeetle\Desktop\SIMS\SIMSDAL\obj\Debug\SIMSDAL.csproj.CopyComplete
 C:\Users\UnicornBeetle\Desktop\SIMS\SIMSDAL\obj\Debug\SIMSDAL.dll
 C:\Users\UnicornBeetle\Desktop\SIMS\SIMSDAL\obj\Debug\SIMSDAL.pdb
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\bin\Debug\SIMSDAL.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\bin\Debug\SIMSDAL.pdb
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\bin\Debug\SIMSModel.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\bin\Debug\SIMSModel.pdb
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\obj\Debug\SIMSDAL.csprojAssemblyReference.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\obj\Debug\SIMSDAL.csproj.CoreCompileInputs.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\obj\Debug\SIMSDAL.csproj.CopyComplete
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\obj\Debug\SIMSDAL.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\obj\Debug\SIMSDAL.pdb
