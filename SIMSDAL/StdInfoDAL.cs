@@ -20,7 +20,7 @@ namespace SIMS.DAL
         public int AddInfo(string stdNum, string name, string sex, string nation, string e_mail, string pn)
         {
             //拼接SQL语句
-            string cmdText = @"INSERT INTO T_PerInfo VALUES(@StdNum,@Name,@Sex,@Nation,@E_Mail,@PhoneNumber)";
+            string cmdText = @"INSERT INTO T_StdInfo VALUES(@StdNum,@Name,@Sex,@Nation,@E_Mail,@PhoneNumber)";
 
             //创建SqlParameter对象，获取参数
             SqlParameter[] sp = new SqlParameter[6];
@@ -45,7 +45,7 @@ namespace SIMS.DAL
         public int DeleteInfoByNum(string stdNum)
         {
             //拼接SQL语句
-            string cmdText = "DELETE FROM T_PerInfo WHERE StdNum=@Stdnum";
+            string cmdText = "DELETE FROM T_StdInfo WHERE StdNum=@Stdnum";
 
             //创建SqlParameter对象
             SqlParameter sp = new SqlParameter("@Stdnum", SqlDbType.Char, 12);
@@ -60,7 +60,7 @@ namespace SIMS.DAL
         public int UpdatePN(string phoneNumber, string name)
         {
             //拼接SQL语句
-            string cmdText = @"UPDATE T_PerInfo SET PhoneNumber=@NewPN WHERE Name=@Name";
+            string cmdText = @"UPDATE T_StdInfo SET PhoneNumber=@NewPN WHERE Name=@Name";
 
             //SqlParameter对象，获取参数“姓名”
             SqlParameter spName = new SqlParameter("@Name", SqlDbType.NVarChar, 6);
@@ -78,7 +78,7 @@ namespace SIMS.DAL
         public int UpdateInfo(string oldName, string stdNum, string name, string e_mail, string pn)
         {
             //拼接SQL语句
-            string cmdText = @"UPDATE T_PerInfo SET StdNum=@NewStdNum, Name=@NewName, E_Mail=@NewE_Mail, PhoneNumber=@NewPN WHERE Name=@OldName";
+            string cmdText = @"UPDATE T_StdInfo SET StdNum=@NewStdNum, Name=@NewName, E_Mail=@NewE_Mail, PhoneNumber=@NewPN WHERE Name=@OldName";
 
             SqlParameter spStdNum = new SqlParameter("@NewStdNum", SqlDbType.NVarChar, 12);
             spStdNum.Value = stdNum;
@@ -97,7 +97,7 @@ namespace SIMS.DAL
         //查询数据的方法
         public StdInfoModel GetInfoByNum(string stdNum)
         {
-            string cmdText = @"SELECT * FROM T_PerInfo WHERE StdNum=@StdNum";
+            string cmdText = @"SELECT * FROM T_StdInfo WHERE StdNum=@StdNum";
             SqlParameter sp = new SqlParameter("@StdNum", SqlDbType.Char, 12);
             sp.Value = stdNum;
             DataSet ds = SQLCommand.GetDataSet(cmdText, sp);
@@ -133,7 +133,7 @@ namespace SIMS.DAL
         //提取所有学生的信息
         public List<StdInfoModel> GetAllInformation()
         {
-            string cmd = "SELECT [StdNum], [Name], [Sex], [Nation], [E_Mail], [PhoneNumber] FROM [T_PerInfo]";
+            string cmd = "SELECT [StdNum], [Name], [Sex], [Nation], [E_Mail], [PhoneNumber] FROM [T_StdInfo]";
             DataTable dt = SQLCommand.ExecuteQuery(cmd);
 
             return DateToList(dt);
