@@ -19,18 +19,6 @@ C:\Users\UnicornBeetle\Desktop\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Delete.reso
 C:\Users\UnicornBeetle\Desktop\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Retrieve.resources
 C:\Users\UnicornBeetle\Desktop\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Update.resources
 C:\Users\UnicornBeetle\Desktop\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.csproj.CopyComplete
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.csprojAssemblyReference.cache
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Create.resources
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Delete.resources
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Login.resources
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Retrieve.resources
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_StdInfo.resources
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Update.resources
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Properties.Resources.resources
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.csproj.GenerateResource.cache
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.csproj.CoreCompileInputs.cache
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.exe
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.pdb
 D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\bin\Debug\SIMS_WFA.exe.config
 D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\bin\Debug\SIMS_WFA.exe
 D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\bin\Debug\SIMS_WFA.pdb
@@ -40,5 +28,17 @@ D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\bin\Debug\SIMSDAL.dll
 D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\bin\Debug\SIMSBLL.pdb
 D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\bin\Debug\SIMSModel.pdb
 D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\bin\Debug\SIMSDAL.pdb
-D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.csproj.CopyComplete
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.csprojAssemblyReference.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Create.resources
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Delete.resources
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Login.resources
 D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Register.resources
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Retrieve.resources
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_StdInfo.resources
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Form_Update.resources
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.Properties.Resources.resources
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.csproj.GenerateResource.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.csproj.CoreCompileInputs.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.csproj.CopyComplete
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.exe
+D:\Programming Exercises Files\Programs\SIMS\SIMS_WFA\obj\Debug\SIMS_WFA.pdb
