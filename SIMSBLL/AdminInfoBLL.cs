@@ -13,9 +13,9 @@ namespace SIMS.BLL
         private AdminInfoDAL aid = new AdminInfoDAL();
 
         //创建管理员
-        public int AddAdmin(string userName, string password)
+        public int AddAdmin(string adminName, string password)
         {
-            return aid.AddAdmin(userName, password);
+            return aid.AddAdmin(adminName, password);
         }
 
         //删除管理员

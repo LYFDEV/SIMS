@@ -8,14 +8,14 @@ using SIMS.Model;
 
 namespace SIMS.BLL
 {
-    public class SuperAdminBLL
+    public class SuperAdminInfoBLL
     {
         private SuperAdminDAL sad = new SuperAdminDAL();
 
         //查询超级管理员信息
-        public List<SuperAdminModel> GetSuperAdmin()
+        public List<SuperAdminInfoModel> GetSuperAdminInfo()
         {
-            return sad.GetSuperAdmin();
+            return sad.GetSuperAdminInfo();
         }
     }
 }
