@@ -36,6 +36,7 @@ namespace SIMS_WFA
             this.lb_Password = new System.Windows.Forms.Label();
             this.tb_AdminName = new System.Windows.Forms.TextBox();
             this.tb_Password = new System.Windows.Forms.TextBox();
+            this.btn_Clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Login
@@ -96,11 +97,23 @@ namespace SIMS_WFA
             this.tb_Password.Size = new System.Drawing.Size(205, 28);
             this.tb_Password.TabIndex = 5;
             // 
+            // btn_Clear
+            // 
+            this.btn_Clear.Font = new System.Drawing.Font("宋体", 10.8F);
+            this.btn_Clear.Location = new System.Drawing.Point(144, 138);
+            this.btn_Clear.Name = "btn_Clear";
+            this.btn_Clear.Size = new System.Drawing.Size(75, 36);
+            this.btn_Clear.TabIndex = 6;
+            this.btn_Clear.Text = "清空";
+            this.btn_Clear.UseVisualStyleBackColor = true;
+            this.btn_Clear.Click += new System.EventHandler(this.btn_Clear_Click);
+            // 
             // Form_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 220);
+            this.Controls.Add(this.btn_Clear);
             this.Controls.Add(this.tb_Password);
             this.Controls.Add(this.tb_AdminName);
             this.Controls.Add(this.lb_Password);
@@ -124,5 +137,6 @@ namespace SIMS_WFA
         private System.Windows.Forms.Label lb_Password;
         private System.Windows.Forms.TextBox tb_AdminName;
         private System.Windows.Forms.TextBox tb_Password;
+        private System.Windows.Forms.Button btn_Clear;
     }
 }

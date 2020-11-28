@@ -30,6 +30,8 @@ namespace SIMS_WFA
             
             //用于判断用户名是否正确
             bool isAdminExit = false;
+            //用于判断密码是否正确
+            bool isPasswordRight = false;
             //用户名和密码不为空
             if (tb_AdminName.Text!=""&&tb_Password.Text!="")
             {
@@ -43,15 +45,17 @@ namespace SIMS_WFA
                     for (int j = 0; j < lAim.Count; j++)
                     {
                         if (tb_Password.Text == lAim[j].Password)   //判断密码是否正确
-                        {
-                            this.Hide();
-                            new Form_StdInfo().ShowDialog();
-                            Application.ExitThread();
-                        }
-                        else    //密码错误
-                        {
-                            MessageBox.Show("密码错误");
-                        }
+                            isPasswordRight = true;
+                    }
+                    if (isPasswordRight)//密码正确
+                    {
+                        this.Hide();
+                        new Form_StdInfo().ShowDialog();
+                        Application.ExitThread();
+                    }
+                    else//密码错误
+                    {
+                        MessageBox.Show("密码错误");
                     }
                 }
                 else                //用户名不存在（用户名填写错误）
@@ -70,6 +74,11 @@ namespace SIMS_WFA
             this.Hide();
             new Form_Register().ShowDialog();
             Application.ExitThread();
+        }
+
+        private void btn_Clear_Click(object sender, EventArgs e)
+        {
+            tb_AdminName.Text = tb_Password.Text = "";
         }
     }
 }

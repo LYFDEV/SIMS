@@ -21,7 +21,7 @@ namespace SIMS_WFA
 
         private void Form_Register_Load(object sender, EventArgs e)
         {
-            tb_Password.PasswordChar = tb_Confirm.PasswordChar = tb_Spassword.PasswordChar = '*';
+            tb_Password.PasswordChar = tb_Confirm.PasswordChar = tb_SPassword.PasswordChar = '*';
         }
 
         private void btn_Register_Click(object sender, EventArgs e)
@@ -33,7 +33,7 @@ namespace SIMS_WFA
             //用于判断用户是否存在
             bool isRegistered = false;
             //信息不为空
-            if (tb_AdminName.Text!=""&&tb_Password.Text != "" &&tb_Confirm.Text != "" &&tb_SAdminName.Text != "" &&tb_Spassword.Text != "" )
+            if (tb_AdminName.Text!=""&&tb_Password.Text != "" &&tb_Confirm.Text != "" &&tb_SAdminName.Text != "" &&tb_SPassword.Text != "" )
             {
                 //判断用户名是否存在
                 for(int i = 0; i<lAim.Count; i++)
@@ -50,7 +50,7 @@ namespace SIMS_WFA
                         for(int j = 0; j<lSaim.Count; j++)
                         {
                             //超级管理员用户和密码正确
-                            if (tb_SAdminName.Text == lSaim[j].SAdminName && tb_Spassword.Text == lSaim[j].SPassword)
+                            if (tb_SAdminName.Text == lSaim[j].SAdminName && tb_SPassword.Text == lSaim[j].SPassword)
                             {
                                 aib.AddAdmin(tb_AdminName.Text, tb_Password.Text);
                                 MessageBox.Show("注册成功");
@@ -86,7 +86,7 @@ namespace SIMS_WFA
 
         private void btn_Clear_Click(object sender, EventArgs e)
         {
-            tb_AdminName.Text = tb_Password.Text = tb_Confirm.Text = tb_SAdminName.Text = tb_Spassword.Text = "";
+            tb_AdminName.Text = tb_Password.Text = tb_Confirm.Text = tb_SAdminName.Text = tb_SPassword.Text = "";
         }
     }
 }

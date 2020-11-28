@@ -39,10 +39,10 @@ namespace SIMS_WFA
             this.tb_Confirm = new System.Windows.Forms.TextBox();
             this.lb_Confirm = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.tb_Spassword = new System.Windows.Forms.TextBox();
+            this.tb_SPassword = new System.Windows.Forms.TextBox();
             this.tb_SAdminName = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lb_SAdminName = new System.Windows.Forms.Label();
+            this.lb_SPassword = new System.Windows.Forms.Label();
             this.btn_Register = new System.Windows.Forms.Button();
             this.btn_Clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -62,9 +62,9 @@ namespace SIMS_WFA
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(30, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(263, 15);
+            this.label1.Size = new System.Drawing.Size(233, 15);
             this.label1.TabIndex = 1;
-            this.label1.Text = "（用户名不能为空，长度不能大于24）";
+            this.label1.Text = "（用户名不能为空，长度小于24）";
             // 
             // tb_AdminName
             // 
@@ -87,9 +87,9 @@ namespace SIMS_WFA
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(30, 100);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(248, 15);
+            this.label2.Size = new System.Drawing.Size(218, 15);
             this.label2.TabIndex = 4;
-            this.label2.Text = "（密码不能为空，长度不能大于24）";
+            this.label2.Text = "（密码不能为空，长度小于20）";
             // 
             // lb_Password
             // 
@@ -129,13 +129,13 @@ namespace SIMS_WFA
             this.label3.TabIndex = 8;
             this.label3.Text = "请输入超级管理员用户和密码以完成注册";
             // 
-            // tb_Spassword
+            // tb_SPassword
             // 
-            this.tb_Spassword.Font = new System.Drawing.Font("宋体", 10.8F);
-            this.tb_Spassword.Location = new System.Drawing.Point(121, 250);
-            this.tb_Spassword.Name = "tb_Spassword";
-            this.tb_Spassword.Size = new System.Drawing.Size(259, 28);
-            this.tb_Spassword.TabIndex = 10;
+            this.tb_SPassword.Font = new System.Drawing.Font("宋体", 10.8F);
+            this.tb_SPassword.Location = new System.Drawing.Point(121, 250);
+            this.tb_SPassword.Name = "tb_SPassword";
+            this.tb_SPassword.Size = new System.Drawing.Size(259, 28);
+            this.tb_SPassword.TabIndex = 10;
             // 
             // tb_SAdminName
             // 
@@ -145,25 +145,25 @@ namespace SIMS_WFA
             this.tb_SAdminName.Size = new System.Drawing.Size(259, 28);
             this.tb_SAdminName.TabIndex = 9;
             // 
-            // label4
+            // lb_SAdminName
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("宋体", 10.8F);
-            this.label4.Location = new System.Drawing.Point(31, 205);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 19);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "用 户 名";
+            this.lb_SAdminName.AutoSize = true;
+            this.lb_SAdminName.Font = new System.Drawing.Font("宋体", 10.8F);
+            this.lb_SAdminName.Location = new System.Drawing.Point(31, 205);
+            this.lb_SAdminName.Name = "lb_SAdminName";
+            this.lb_SAdminName.Size = new System.Drawing.Size(86, 19);
+            this.lb_SAdminName.TabIndex = 12;
+            this.lb_SAdminName.Text = "用 户 名";
             // 
-            // label5
+            // lb_SPassword
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("宋体", 10.8F);
-            this.label5.Location = new System.Drawing.Point(30, 255);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 19);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "密    码";
+            this.lb_SPassword.AutoSize = true;
+            this.lb_SPassword.Font = new System.Drawing.Font("宋体", 10.8F);
+            this.lb_SPassword.Location = new System.Drawing.Point(30, 255);
+            this.lb_SPassword.Name = "lb_SPassword";
+            this.lb_SPassword.Size = new System.Drawing.Size(87, 19);
+            this.lb_SPassword.TabIndex = 11;
+            this.lb_SPassword.Text = "密    码";
             // 
             // btn_Register
             // 
@@ -194,9 +194,9 @@ namespace SIMS_WFA
             this.ClientSize = new System.Drawing.Size(425, 361);
             this.Controls.Add(this.btn_Clear);
             this.Controls.Add(this.btn_Register);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.tb_Spassword);
+            this.Controls.Add(this.lb_SAdminName);
+            this.Controls.Add(this.lb_SPassword);
+            this.Controls.Add(this.tb_SPassword);
             this.Controls.Add(this.tb_SAdminName);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tb_Confirm);
@@ -227,10 +227,10 @@ namespace SIMS_WFA
         private System.Windows.Forms.TextBox tb_Confirm;
         private System.Windows.Forms.Label lb_Confirm;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tb_Spassword;
+        private System.Windows.Forms.TextBox tb_SPassword;
         private System.Windows.Forms.TextBox tb_SAdminName;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lb_SAdminName;
+        private System.Windows.Forms.Label lb_SPassword;
         private System.Windows.Forms.Button btn_Register;
         private System.Windows.Forms.Button btn_Clear;
     }
