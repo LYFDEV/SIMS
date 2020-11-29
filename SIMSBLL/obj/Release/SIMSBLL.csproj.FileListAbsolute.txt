@@ -1,0 +1,11 @@
+D:\Programming Exercises Files\Programs\SIMS\SIMSBLL\bin\Release\SIMSBLL.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSBLL\bin\Release\SIMSBLL.pdb
+D:\Programming Exercises Files\Programs\SIMS\SIMSBLL\bin\Release\SIMSDAL.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSBLL\bin\Release\SIMSModel.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSBLL\bin\Release\SIMSDAL.pdb
+D:\Programming Exercises Files\Programs\SIMS\SIMSBLL\bin\Release\SIMSModel.pdb
+D:\Programming Exercises Files\Programs\SIMS\SIMSBLL\obj\Release\SIMSBLL.csprojAssemblyReference.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMSBLL\obj\Release\SIMSBLL.csproj.CoreCompileInputs.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMSBLL\obj\Release\SIMSBLL.csproj.CopyComplete
+D:\Programming Exercises Files\Programs\SIMS\SIMSBLL\obj\Release\SIMSBLL.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSBLL\obj\Release\SIMSBLL.pdb
