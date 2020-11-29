@@ -1,0 +1,6 @@
+D:\Programming Exercises Files\Programs\SIMS\SIMSModel\bin\Release\SIMSModel.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSModel\bin\Release\SIMSModel.pdb
+D:\Programming Exercises Files\Programs\SIMS\SIMSModel\obj\Release\SIMSModel.csprojAssemblyReference.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMSModel\obj\Release\SIMSModel.csproj.CoreCompileInputs.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMSModel\obj\Release\SIMSModel.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSModel\obj\Release\SIMSModel.pdb
