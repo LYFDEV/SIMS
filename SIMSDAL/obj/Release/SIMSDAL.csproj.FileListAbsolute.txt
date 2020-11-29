@@ -1,0 +1,9 @@
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\bin\Release\SIMSDAL.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\bin\Release\SIMSDAL.pdb
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\bin\Release\SIMSModel.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\bin\Release\SIMSModel.pdb
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\obj\Release\SIMSDAL.csprojAssemblyReference.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\obj\Release\SIMSDAL.csproj.CoreCompileInputs.cache
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\obj\Release\SIMSDAL.csproj.CopyComplete
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\obj\Release\SIMSDAL.dll
+D:\Programming Exercises Files\Programs\SIMS\SIMSDAL\obj\Release\SIMSDAL.pdb
