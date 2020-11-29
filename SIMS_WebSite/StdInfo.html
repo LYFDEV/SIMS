@@ -5,23 +5,98 @@
     <title>学生信息管理系统</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/icon/LYF_UB_64.ico" media="screen" />
     <style>
-        #T_StdInfo, #T_StdInfo td {
+        #tb, #T_StdInfo td {
             border: 1px solid #000000;
             border-collapse: collapse;
+            text-align: center;
+            margin: 0 auto;
+            background: #00000080;
+            padding: 20px 50px;
+            color: white;
+        }
+        #T_StdInfo {
+            padding: 20px 140px;
+        }
+        body {
+            background-image: url(images/5791d8281f685.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #titlebar {
+            padding-top: 0;
+            padding-left: 0;
+            padding-right: 0;
+            background-color: grey;
+            height: 50px;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        #titlebar ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+            height: 100%;
+        }
+
+        #titlebar ul li {
+            float: left;
+            padding-right: 50px;
+            padding-left: 50px;
+            padding-bottom: 14.5px;
+            padding-top: 14.5px;
+            padding-bottom: 14.5px;
+            display: block;
+        }
+
+        #titlebar ul li a {
+            display: block;
+        }
+
+        #titlebar ul li:hover {
+            background-color: dimgray;
+        }
+
+        #titlebar ul li.level1:hover {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        #titlebar ul li.level1:hover > a {
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-bottom: 14.5px;
+        }
+
+        #titlebar ul li.level1 ul.level2 {
+            display: none;
+            background-color: gray;
+        }
+
+        #titlebar ul li a {
+            text-decoration: none;
+            color: white;
         }
     </style>
 
 </head>
 <body>
+    <div id="titlebar">
+        <ul>
+            <li><a href="CreateStdInfo.aspx">创建学生信息</a></li>
+            <li><a href="RetrieveStdInfo.aspx">查询学生信息</a></li>
+            <li><a href="UpdateStdInfo.aspx">更新学生信息</a></li>
+            <li><a href="DeleteStdInfo.aspx">删除学生信息</a></li>
+            <li><a href="Login.aspx">注销管理员用户</a></li>
+        </ul>
+    </div>
     <center>
         <h2>学生信息表</h2>
-        <a href="CreateInfo.html">
-            <input type="button" id="CreateInfo" value="创建学生信息" />
-        </a>
-        <a href="Login.aspx">
-            <input type="button" id="Quit" value="退出登录" />
-        </a>
-        @T_StdInfo
+        <div id="tb">@T_StdInfo</div>
     </center>
 </body>
 </html>

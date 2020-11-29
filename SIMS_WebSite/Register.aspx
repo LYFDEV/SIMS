@@ -7,13 +7,33 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>学生信息管理系统管理员用户注册页面</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/icon/LYF_UB_64.ico" media="screen" />
+    <style type="text/css">
+        body
+        {
+            background-image: url(images/5791d8281f685.jpg);
+            background-position:center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #Register 
+        {
+            border: 1px;
+            width: 30%;
+            text-align: center;
+            margin: 0 auto;
+            background: #00000080;
+            padding: 20px 50px;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <center>
-        <h1>管理员注册页面</h1>
-    </center>
     <form id="form_Register" runat="server">
-        <div align="center">
+        <div align="center" id="Register">
+            <center>
+                <h1>管理员注册页面</h1>
+            </center>
             <p>
                 <asp:Label ID="lb_AdminNmae" runat="server">用 户 名：</asp:Label>
                 <asp:TextBox ID="tb_AdminName" runat="server"></asp:TextBox><br />

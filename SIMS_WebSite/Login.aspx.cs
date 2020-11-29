@@ -37,7 +37,7 @@ public partial class Login : System.Web.UI.Page
                 }
                 if(isPasswordRight)//密码正确
                 {
-                    Response.Write(@"<script>location.href='Handler_ShowInfo.ashx';</script>");
+                    Response.Write(@"<script>location.href='Handler_ShowStdInfo.ashx';</script>");
                 }
                 else//密码错误
                 {
