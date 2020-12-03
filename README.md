@@ -49,4 +49,4 @@
 ### Gitee仓库
 
 1.  你可以在 [https://gitee.com/LYFUB_0928/Student-Information-Management-System](https://gitee.com/LYFUB_0928/Student-Information-Management-System) 这个地址来下载该项目。
-2.  你可以通过QQ邮箱：_3622495140@qq_联系我。 
+2.  你可以通过QQ邮箱：_3622495140@qq_ 联系我。 
