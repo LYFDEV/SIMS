@@ -6,27 +6,27 @@
 ### 应用架构
 #### 软件使用了三层结构+网站UI实现增删改查功能。
 1.  SIMS_WebSite(ASP.NET网站)
-    * Login.aspx            Web窗体 实现登录管理员用户以及注册的功能
-    * Register.aspx         Web窗体 实现用超级管理员用户权限注册管理员用户的功能
-    * CreateStdInfo.aspx    Web窗体 实现创建学生信息的功能
-    * RetrieveStdInfo.aspx  Web窗体 实现查询学生信息的功能
-    * UpdateStdInfo.aspx    Web窗体 实现更新学生信息的功能
-    * DeleteStdInfo.aspx    Web窗体 实现删除学生信息的功能
-    * StdInfo.html          HTML页面用于显示学生信息
+    * Login.aspx            _Web窗体 实现登录管理员用户以及注册的功能_
+    * Register.aspx         _Web窗体 实现用超级管理员用户权限注册管理员用户的功能_
+    * CreateStdInfo.aspx    _Web窗体 实现创建学生信息的功能_
+    * RetrieveStdInfo.aspx  _Web窗体 实现查询学生信息的功能_
+    * UpdateStdInfo.aspx    _Web窗体 实现更新学生信息的功能_
+    * DeleteStdInfo.aspx    _Web窗体 实现删除学生信息的功能_
+    * StdInfo.html          _HTML页面用于显示学生信息_
     * Handler_ShowStdInfo.ashx 一般处理程序 用于在StdInfo.html中显示学生信息
 2.  SIMSBLL(业务逻辑层)
-    * StdInfoBLL.cs         学生信息BLL类 调用DAL层方法实现对学生信息增删改查的功能
-    * AdminInfoBLL.cs       管理员信息BLL类 调用DAL层方法实现对管理员信息增删查的功能
-    * SuperAdminInfoBLL.cs  超级管理员BLL类 调用DAL层方法实现查询超级管理员信息的功能
+    * StdInfoBLL.cs         _学生信息BLL类 调用DAL层方法实现对学生信息增删改查的功能_
+    * AdminInfoBLL.cs       _管理员信息BLL类 调用DAL层方法实现对管理员信息增删查的功能_
+    * SuperAdminInfoBLL.cs  _超级管理员BLL类 调用DAL层方法实现查询超级管理员信息的功能_
 3.  SIMSDAL(数据访问层)
-    * StdInfoDAL.cs         学生信息DAL类 对数据库[T_StdInfo]表进行增删改查
-    * AdminInfoDAL.cs       管理员信息DAL类 对数据库[T_Admin]表进行增删查
-    * SuperAdminInfoDAL.cs  超级管理员DAL类 对数据库[T_SuperAdmin]进行查询
-    * SQLCommand.cs         SQL语句方法类，实现对数据库增删改查的功能
+    * StdInfoDAL.cs         _学生信息DAL类 对数据库[T_StdInfo]表进行增删改查
+    * AdminInfoDAL.cs       _管理员信息DAL类 对数据库[T_Admin]表进行增删查_
+    * SuperAdminInfoDAL.cs  _超级管理员DAL类 对数据库[T_SuperAdmin]进行查询_
+    * SQLCommand.cs         _SQL语句方法类，实现对数据库增删改查的功能_
 4.  SIMSModel(对象关系映射层)
-    * StdInfo.cs            学生信息Model类 用于提取学生信息的类
-    * AdminInfo.cs          管理员信息Model类 用于提取管理员信息的类
-    * SuperAdminInfoDAL.cs  超级管理员Model类 用于提取超级管理员信息的类
+    * StdInfo.cs            _学生信息Model类 用于提取学生信息的类_
+    * AdminInfo.cs          _管理员信息Model类 用于提取管理员信息的类_
+    * SuperAdminInfoDAL.cs  _超级管理员Model类 用于提取超级管理员信息的类_
 
 ### 数据库说明
 #### 使用SQL Server 2019 Express数据库以及SSMS集成环境对数据库进行配置与管理
