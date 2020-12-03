@@ -13,13 +13,13 @@
     * UpdateStdInfo.aspx    _Web窗体 实现更新学生信息的功能_
     * DeleteStdInfo.aspx    _Web窗体 实现删除学生信息的功能_
     * StdInfo.html          _HTML页面用于显示学生信息_
-    * Handler_ShowStdInfo.ashx 一般处理程序 用于在StdInfo.html中显示学生信息
+    * Handler_ShowStdInfo.ashx _一般处理程序 用于在StdInfo.html中显示学生信息_
 2.  SIMSBLL(业务逻辑层)
     * StdInfoBLL.cs         _学生信息BLL类 调用DAL层方法实现对学生信息增删改查的功能_
     * AdminInfoBLL.cs       _管理员信息BLL类 调用DAL层方法实现对管理员信息增删查的功能_
     * SuperAdminInfoBLL.cs  _超级管理员BLL类 调用DAL层方法实现查询超级管理员信息的功能_
 3.  SIMSDAL(数据访问层)
-    * StdInfoDAL.cs         _学生信息DAL类 对数据库[T_StdInfo]表进行增删改查
+    * StdInfoDAL.cs         _学生信息DAL类 对数据库[T_StdInfo]表进行增删改查_
     * AdminInfoDAL.cs       _管理员信息DAL类 对数据库[T_Admin]表进行增删查_
     * SuperAdminInfoDAL.cs  _超级管理员DAL类 对数据库[T_SuperAdmin]进行查询_
     * SQLCommand.cs         _SQL语句方法类，实现对数据库增删改查的功能_
