@@ -34,8 +34,8 @@
                 <h1>查询学生信息</h1>
             </centre>
             <p>
-                <a>请输入超级管理员用户和密码以完成注册</a><br /><a>&emsp;</a><br />
-                <asp:Label ID="lb_StdNum" runat="server">用 户 名：</asp:Label>
+                <a>请输入学生学号以完成查询</a><br /><a>&emsp;</a><br />
+                <asp:Label ID="lb_StdNum" runat="server">学号：</asp:Label>
                 <asp:TextBox ID="tb_StdNum" runat="server"></asp:TextBox><a>&emsp;</a><a>&emsp;</a>
                 <asp:Button ID="btn_Retrieve" runat="server" Text="查询信息" OnClick="btn_Retrieve_Click"/><a>&emsp;</a>
                 <asp:Button ID="btn_Clear" runat="server" Text="清空内容" OnClick="btn_Clear_Click"/>
