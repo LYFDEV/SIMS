@@ -26,8 +26,7 @@
             padding: 20px 50px;
             color: white;
         }
-    </style>
-    
+    </style>   
 </head>
 <body>
     <form id="form_Login" runat="server">
