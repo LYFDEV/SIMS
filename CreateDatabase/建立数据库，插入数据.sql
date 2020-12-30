@@ -1,5 +1,5 @@
 CREATE DATABASE [StdInfo]
-USE StdINfo
+USE [StdInfo]
 CREATE TABLE [dbo].[T_Admin] (
     [AdminName] NVARCHAR (24) NOT NULL,
     [Password]  NVARCHAR (20) NOT NULL,
