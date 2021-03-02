@@ -46,7 +46,7 @@
 2.  更改连接字符串。
 3.  生成解决方案以及调试。
 
-### Gitee仓库
+### GitHub仓库
 
 1.  你可以在 [https://github.com/LYFDEV/SIMS](https://github.com/LYFDEV/SIMS) 这个地址来下载该项目。
 2.  你可以通过QQ邮箱：_3622495140@qq_ 联系我。 
