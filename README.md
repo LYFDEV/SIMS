@@ -49,4 +49,5 @@
 ### GitHub仓库
 
 1.  你可以在 [https://github.com/LYFDEV/SIMS](https://github.com/LYFDEV/SIMS) 这个地址来下载该项目。
-2.  你可以通过QQ邮箱：_lyfcoder@gmail.com_ 联系我。 
+2.  [Gitee仓库](https://gitee.com/LYFUB_0928/SIMS)同步更新。
+3.  你可以通过QQ邮箱：_lyfcoder@gmail.com_ 联系我。 
